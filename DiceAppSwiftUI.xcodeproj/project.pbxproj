@@ -14,6 +14,7 @@
 		311C260B270F6EF8004F2325 /* DiceAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C260A270F6EF8004F2325 /* DiceAppSwiftUITests.swift */; };
 		311C2615270F6EF8004F2325 /* DiceAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C2614270F6EF8004F2325 /* DiceAppSwiftUIUITests.swift */; };
 		311C2617270F6EF8004F2325 /* DiceAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C2616270F6EF8004F2325 /* DiceAppSwiftUIUITestsLaunchTests.swift */; };
+		311C2624270F720C004F2325 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C2623270F720C004F2325 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		311C2610270F6EF8004F2325 /* DiceAppSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceAppSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311C2614270F6EF8004F2325 /* DiceAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppSwiftUIUITests.swift; sourceTree = "<group>"; };
 		311C2616270F6EF8004F2325 /* DiceAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		311C2623270F720C004F2325 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		311C25F8270F6EF5004F2325 /* DiceAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				311C2623270F720C004F2325 /* DiceView.swift */,
 				311C25F9270F6EF5004F2325 /* DiceAppSwiftUIApp.swift */,
 				311C25FB270F6EF5004F2325 /* ContentView.swift */,
 				311C25FD270F6EF7004F2325 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				311C25FC270F6EF5004F2325 /* ContentView.swift in Sources */,
+				311C2624270F720C004F2325 /* DiceView.swift in Sources */,
 				311C25FA270F6EF5004F2325 /* DiceAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
